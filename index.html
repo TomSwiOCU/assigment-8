@@ -3,47 +3,102 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personality Quiz</title>
+    <title>What Type of 2026 Traveler Are You?</title>
     <link rel="icon" type="image/x-icon" href="/img/ideas.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href ="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1 class="text-center mt-4">YOUR QUIZ TITLE HERE</h1>
+    <h1 class="text-center mt-4">What Type of 2026 Traveler Are You?</h1>
     
-    <!-- Start quiz element -->
+    <!-- Question 1 -->
     <div class="container d-flex justify-content-center" id="question-1">
       <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3">YOUR QUIZ QUESTION HERE</h4>
+        <h4 class="mb-3">What’s your ideal way to start a vacation day?</h4>
         <div class="row g-2">
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">ANSWER CHOICE A</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Skydiving or bungee jumping</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">ANSWER CHOICE B</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Visiting a famous museum or historical site</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">ANSWER CHOICE C</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Sleeping in and having breakfast by the beach/pool</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">ANSWER CHOICE D</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Finding the best local café and chatting with people</button>
           </div>
         </div>
       </div>
     </div>
 
-    
-    
-    <!-- End quiz element -->
+    <!-- Question 2 -->
+    <div class="container d-flex justify-content-center" id="question-2">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">When choosing accommodation, you care most about:</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Being close to extreme sports / adventure activities</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Location in the historic/artistic heart of the city</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Amazing view, spa, or pool access</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Social hostel or place with events & group activities</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Add more quiz elements here -->
+    <!-- Question 3 -->
+    <div class="container d-flex justify-content-center" id="question-3">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">Your phone storage is full of...</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Action photos & GoPro videos</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Pictures of street art, temples, local dishes</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Sunset & food pics + a few selfies</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Group photos and stories with new friends</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
+    <!-- Question 4 -->
+    <div class="container d-flex justify-content-center" id="question-4">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">At the airport you are most likely to...</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Already researching the next extreme activity</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Reading a book about the destination’s history</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">Relaxing at a lounge or napping</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">Talking to people in line or at the bar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container d-flex justify-content-center">
       <button id="show-result" class="btn btn-success my-4">Show Results</button>
     </div>    
-    <!-- Output the result here -->
+    
     <div class="container d-flex justify-content-center">
       <div id="result-container" class="card p-4 mb-4" style="width: 75%; display: none;">
         <h3>Your Result:</h3>
@@ -51,7 +106,6 @@
       </div>
     </div>
     
-    <!-- Connect to your script file here -->
-     <script src = "./js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
